@@ -196,7 +196,7 @@ if (contactForm) {
       .then(() => {
         submitBtn.textContent = 'Message envoyé !';
         submitBtn.style.backgroundColor = '#10b981';
-        alert('✅ Votre message a été envoyé avec succès ! Je vous répondrai dès que possible.');
+        alert('✅ Votre message a été envoyé avec succès !');
         contactForm.reset();
         
         setTimeout(() => {
