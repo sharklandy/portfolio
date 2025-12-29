@@ -143,6 +143,19 @@ header {
   align-items: center;
 }
 
+.home-container img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.home-container img:hover {
+  transform: scale(1.05);
+}
+
 .home-p {
   color: black;
   background-color: rgba(128, 128, 128, 0.214);
