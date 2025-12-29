@@ -166,7 +166,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setTimeout(() => {
     loadingScreen.style.opacity = '0';
-    setTimeout(() => loadingScreen.style.display = 'none', 500);
+    setTimeout(() => {
+      loadingScreen.style.display = 'none';
+      // Déclencher automatiquement la révélation des éléments visibles
+      revealElements.forEach(el => {
+        const elementTop = el.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        if (elementTop < windowHeight) {
+          el.classList.add('active-reveal');
+        }
+      });
+    }, 500);
     mainPage.classList.add("visible");
   }, 3000);
 });
