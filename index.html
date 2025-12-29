@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SharkLandy - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Open+Sans:wght@300..800&family=Playfair+Display:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("ZeeTjwW3pycvUxCE4");
+        })();
+    </script>
+</head>
+<body>
+    <!-- Écran de chargement -->
+    <div id="loading-screen">
+      <div class="loading-content">
+        <i class="fa-solid fa-laptop-code fa-5x main-icon hidden"></i>
+        <h1 id="loading-text" class="hidden">MON PORTFOLIO</h1>
+        <div class="sub-icons">
+          <i class="fa-brands fa-github fa-2x hidden"></i>
+          <i class="fa-solid fa-code fa-2x hidden"></i>
+          <i class="fa-solid fa-user fa-2x hidden"></i>
+        </div>
+        <h2 id="designer-text" class="hidden">Portfolio Moderne</h2>
+      </div>
+    </div>
+
+    <!-- Page principale -->
+    <div id="main-page">
+    
+    <!-- Header avec navigation -->
+    <header class="header-list">
+        <div class="div-list">
+            <ul class="ul-list">
+                <li class="active">
+                    <i class="fa-regular fa-house"></i>
+                    <a href="#home">Accueil</a>
+                </li>
+                <li>
+                    <i class="fa-regular fa-address-card"></i>
+                    <a href="#about">À propos</a>
+                </li>
+                <li>
+                    <i class="fa-regular fa-folder-open"></i>
+                    <a href="#project">Projets</a>
+                </li>
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Section Home -->
+    <section class="home" id="home">
+        <div class="home-container">
+        <div class="home-section">
+            <div class="info-home">
+                <h1>Salut, je suis Landry</h1>
+                <h3>Développeur Web</h3>
+                <div class="info-p">
+                   <p>Je crée de belles expériences digitales, fonctionnelles et centrées sur l'utilisateur. Avec une passion pour le développement web, je transforme les idées en réalité à travers du code propre et un design réfléchi.</p>
+                </div>
+                <div class="info-p2">
+                    <p><i class="fa-solid fa-location-dot"></i> Basé en France</p>
+                    <p><i class="fa-solid fa-briefcase"></i> Disponible maintenant</p>
+                </div>
+                <div class="btnn">
+                    <button class="btn-home1"><i class="fa-solid fa-arrow-right"></i> Me contacter</button>
+                    <button class="btn-home2" id="download-cv"><i class="fa-solid fa-download"></i> Télécharger CV</button>
+                </div>
+                <div class="hhr">
+                    <hr>
+                </div>
+                <div class="follow">
+                    <p class="followw">Suivez-moi:</p>
+                    <ul>
+                        <li><a href="https://github.com/sharklandy" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+          <img src="images/shark-logo.jpeg" alt="SharkLandy Logo">
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section class="about" id="about">
+        <p>À PROPOS DE MOI</p>
+        <div class="title">
+        <h1>Créer des Expériences</h1>
+        <h1>Digitales Significatives</h1>
+        </div>
+        <div class="hrrr">
+            <hr>
+        </div>
+        <div class="about-container">
+            <div class="info-about">
+            <div class="about-info">
+                <p>
+                    Je suis étudiant en informatique à Sup de Vinci et passionné par le développement web.
+                    Ce qui me plaît le plus, c'est de transformer une idée en quelque chose de concret et fonctionnel.
+                    Chaque projet est une opportunité d'apprendre et de repousser mes limites techniques.
+                </p>
+                <p>
+                    Au-delà du code, j'aime explorer de nouvelles technologies et comprendre comment elles fonctionnent.
+                    Que ce soit en développant des APIs, en jouant avec Docker ou en créant des interfaces intuitives,
+                    je cherche toujours à progresser et à construire des solutions qui ont du sens.
+                </p>
+            </div>
+            <h2>Ce qui me motive</h2>
+            <div class="card">
+                <div class="c1">
+                    <h3><i class="fa-solid fa-code"></i> Technologies</h3>
+                    <p>HTML, CSS, JavaScript, Node.js, Python, React, MongoDB</p>
+                </div>
+                <div class="c1">
+                    <h3><i class="fa-solid fa-graduation-cap"></i> Formation</h3>
+                    <p><a href="https://www.supdevinci.fr/" target="_blank" style="color: inherit; text-decoration: none;">Sup de Vinci</a> - 3ème année Informatique</p>
+                </div>
+            <div class="c1">
+                    <h3><i class="fa-solid fa-folder-open"></i><span class="block-text">Projets</span></h3>
+                    <p>Plus de 5 projets full-stack réalisés</p>
+                </div>
+            </div>
+        </div>
+        <img src="images/shark-logo.jpeg" alt="SharkLandy Logo">
+        </div>
+     </section>
+
+     <!-- Section Projets -->
+     <section class="project" id="project">
+        <p>PROJETS</p>
+        <h1>Travaux Récents</h1>
+        <hr>
+        <div class="info-pro">
+            <p>Une sélection de mes projets récents démontrant mon expertise en développement</p>
+            <p>full-stack, frameworks modernes et résolution créative de problèmes.</p>
+        </div>
+        <div class="projects-container">
+
+    <div class="project-card">
+      <img src="images/nahb.jpeg" alt="NAHB - Not Another Hero's Book">
+      <h3>NAHB - Not Another Hero's Book</h3>
+      <p>Plateforme d'histoires interactives à choix multiples avec panel admin et système de ratings.</p>
+      <div class="skills">
+        <a href="#">Node.js</a>
+        <a href="#">MongoDB</a>
+        <a href="#">React</a>
+      </div>
+      <div class="btns">
+        <a href="https://github.com/sharklandy/NAHB_project_v2" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/deepsea.jpeg" alt="DeepSea API">
+      <h3>DeepSea API</h3>
+      <p>Système de gestion d'observations marines avec architecture microservices, JWT et Docker.</p>
+      <div class="skills">
+        <a href="#">Node.js</a>
+        <a href="#">MongoDB</a>
+        <a href="#">Docker</a>
+      </div>
+      <div class="btns">
+        <a href="https://github.com/sharklandy/deapsea_project" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/network.jpeg" alt="NetworkArchitech">
+      <h3>NetworkArchitech</h3>
+      <p>Jeu éducatif pour apprendre l'infrastructure réseau : construisez et testez des réseaux.</p>
+      <div class="skills">
+        <a href="#">JavaScript</a>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+      </div>
+      <div class="btns">
+        <a href="https://github.com/sharklandy/NetworkArchitech" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/ruedumonde.jpeg" alt="Rue du Monde">
+      <h3>Rue du Monde</h3>
+      <p>Site web statique pour une chaîne de restaurants internationale (Paris, New York, Tokyo).</p>
+      <div class="skills">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JavaScript</a>
+      </div>
+      <div class="btns">
+        <a href="https://github.com/sharklandy/Projet-Html-CSS-JS" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/react-app.jpeg" alt="Application React">
+      <h3>Gestion d'Utilisateurs React</h3>
+      <p>Application React avec recherche, tri, pagination et système de favoris persistants.</p>
+      <div class="skills">
+        <a href="#">React</a>
+        <a href="#">JavaScript</a>
+        <a href="#">CSS</a>
+      </div>
+      <div class="btns">
+        <a href="https://github.com/sharklandy/Front" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+  </div>
+     </section>
+
+     <!-- Section Contact -->
+     <section class="contact" id="contact">
+        <p>CONTACT</p>
+        <h1>Entrez en Contact</h1>
+        <div class="contact-content">
+      <div class="contact-info slide-in-left">
+        <p>Je suis toujours ouvert à discuter de projets passionnants et de nouvelles opportunités. Collaborons !</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>landry.lhomme@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>06 64 89 68 71</span>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>France, Paris</span>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/sharklandy" class="social-link" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form slide-in-right">
+        <form id="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Votre Nom" required name="user_name">
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Votre Email" required name="user_email">
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Votre Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-send">Envoyer le Message</button>
+        </form>
+      </div>
+    </div>
+     </section>
+
+     <!-- Footer -->
+     <footer class="footer">
+  <div class="footer-container">
+    <h2 class="footer-logo">SharkLandy</h2>
+    <ul class="footer-links">
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#project">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="footer-social">
+      <a href="https://github.com/sharklandy" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <p class="footer-copy">&copy; 2025 SharkLandy. Tous droits réservés.</p>
+  </div>
+</footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
